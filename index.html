@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal-Portfolio-WebSite</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/38899bfea2.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                
+                <h3>Hello, hola, नमस्ते !<br> I'm <span>Garima Pundir</span></h3>
+                <h2>I'm a <span class="multiple-text"></span></h2>
+                <h5>From Shamli, Uttar Pradesh</h5>
+                <!-- <p>Software Developer</p> -->
+            </div>
+            
+        </div>
+    </div>    
+
+    <!-- about section strts  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/female-programmer-doing-software-coding-free-vector.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <div class="topic">Problem-Solving Is My Passion</div>
+                    <p><i>I aspire to thrive and grow in a dynamic and competitive professional 
+                        setting, where I can delve into cutting-edge technologies, broaden my expertise, 
+                        and accomplish both personal and organizational objectives..</i></p>
+                        <n></n>
+                        <n></n>
+                        <p><i>Furthermore, I am genuinely passionate about networking and building meaningful connections, 
+                          leveraging problem-solving skills to drive societal advancement. As a keen learner, 
+                          I thrive in diverse environments, readily embracing change and collaborating seamlessly within teams.</i></p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Languages Known</span><br> C++, C, Java, Python, HTML, CSS, Javascript, MySQL, Dockers, Kubernetes</li>
+                                <li><span> Frameworks</span><br> Tensorflow, Firebase, PySpark</li>
+                                <li><span> Developer Tools</span><br>Github and GitBash, Android studio, Visual Studio, SmartGit, NTest, Databricks</li>
+                                <li><span> Coursework</span><br> OOPS Concepts, Operating System, Database Management System, Computer Networks</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>June 2023-Present
+                                </span><br> Junior Software Developer At Adidas</li>
+                                <li><span>January 2023-June 2023</span><br>Software Developer Intern At Autodesk</li>
+                                <li><span>July 2022- August 2022</span><br>Tathastu DSA Scholar Intern At TwoWaits</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019 - 2023</span><br> GL Bajaj Institute Of Technology And Management</li>
+                                <li><span>2018 - 2019 </span><br> Army Public School, Mamun Cantt, Pathankot</li>
+                                <li><span>2016 - 2017</span><br> Army Public School, Mamun Cantt, Pathankot</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate section strts from here -->
+
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">Honors and Awards</h1>
+            <div class="certificates-list">
+                <div>
+                    <i class="fa-brands fa-sketch fa-beat"></i>
+                    <h2> NetApp Women Innovathon 2021-2022</h2>
+                    
+                    <h5><a href="https://drive.google.com/file/d/1WwAnmpPK-XF35ScVopM_QP1h8cZmmyQo/view">View Certificate</a></h5></div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2> RBEI - IoT Garage University Collaboration IDEATHON 2021</h2>
+                    </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>CODE NAARI under ROBOWEEK 2.0</h2>
+                    
+                   </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Tathastu DSA Scholar Intern</h2>
+                    
+                 </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+     <!-- Certificate section strts from here -->
+
+     <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">My Certificates</h1>
+            <div class="certificates-list">
+                <div>
+                    <i class="fa-brands fa-sketch fa-beat"></i>
+                    <h2> Ultimate AWS Certified Cloud Practitioner - 2023</h2>
+                    
+                    <h5><a href="https://drive.google.com/file/d/1WwAnmpPK-XF35ScVopM_QP1h8cZmmyQo/view">View Certificate</a></h5></div>
+                <div>
+                    <i class="fa-brands fa-sketch fa-beat"></i>
+                    <h2> Kubernetes for the Absloute Beginners - Hands On</h2>
+                    </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>C++ Basics: Selection and Iteration</h2>
+                    
+                   </div>
+                <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Docker for the Absolute Beginner - Hands On - Devops</h2>
+                    
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Computer System and Security</h2>
+                    
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Problem Solving (Basic)</h2>
+                    
+                 </div>
+                 <div>
+                    <i class="fa-brands fa-sketch"></i>
+                    <h2>Carrer Edge - Knowdown the Lockdown</h2>
+                    
+                 </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+ 
+
+<!-- for animation part -->
+<script src="style.js"></script>
+
+<!-- to give contents only when clicked  -->
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+}
+
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+</script>
+
+
+
+</body>
+</html>
+
+   
